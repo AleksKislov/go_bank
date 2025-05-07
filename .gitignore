@@ -58,18 +58,3 @@ logs/
 # Build outputs
 /dist/
 /build/
-
-# Terraform 
-.terraform/
-*.tfstate
-*.tfstate.backup
-*.tfvars
-
-# Database dumps
-*.sql
-*.dump
-*.bak
-!db-schema.sql
-
-# Cache directories
-.cache/
